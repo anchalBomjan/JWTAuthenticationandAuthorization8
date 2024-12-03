@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AuthenticationandAuthorizationJWTToken9.props" />
+</Project>
