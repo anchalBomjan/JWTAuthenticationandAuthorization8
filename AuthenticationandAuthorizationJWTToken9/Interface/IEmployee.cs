@@ -59,7 +59,7 @@ namespace AuthenticationandAuthorizationJWTToken9.Interface
 
 
 
-        public bool checkEmployeeAsync(int id);
+        public bool checkEmployeeExists(int id);
         //needed  return type to check no any I/O  bound and  CPU  bound
 
 

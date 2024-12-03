@@ -65,7 +65,7 @@ namespace AuthenticationandAuthorizationJWTToken9.Repositories
             }
             return employee;// This will be null if the employee was not found.
         }
-        public bool checkEmployeeAsync(int id)
+        public bool checkEmployeeExists(int id)
         {
             return _context.Employees.Any(e => e.EmployeeID == id);
         }

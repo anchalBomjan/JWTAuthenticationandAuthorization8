@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AuthenticationandAuthorizationJWTToken9")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+209823daf22c5708e33992ce1f8bf2445952703e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78385434a52455a4b580a4be36d3def951921333")]
 [assembly: System.Reflection.AssemblyProductAttribute("AuthenticationandAuthorizationJWTToken9")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AuthenticationandAuthorizationJWTToken9")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
