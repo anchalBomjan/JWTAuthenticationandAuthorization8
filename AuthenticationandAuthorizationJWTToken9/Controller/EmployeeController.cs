@@ -21,13 +21,12 @@ namespace AuthenticationandAuthorizationJWTToken9.Controller
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Employee>>> Get()
         {
-            // return  await Task.FromResult(_IEmployee.GetEmployeeDetails());
-            //we can write this in another forms
+           //  return  await Task.FromResult(_IEmployee.GetEmployeeDetails());
+            // if  we have async and await only in Controller not in interface and its repose then we Use Task.FromResult
+            //this is bad practise
 
-            var employees = _IEmployee.GetEmployeeDetails();
-            return  employees;
-
-
+            //var employees = _IEmployee.GetEmployeeDetails();
+            //return  employees;
 
         }
        

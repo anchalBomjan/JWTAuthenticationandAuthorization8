@@ -65,13 +65,10 @@ namespace AuthenticationandAuthorizationJWTToken9.Repositories
             }
             return employee;// This will be null if the employee was not found.
         }
-        public Task<bool> checkEmployeeAsync(int id)
+        public bool checkEmployeeAsync(int id)
         {
-            throw new NotImplementedException();
+            return _context.Employees.Any(e => e.EmployeeID == id);
         }
-
-
-
 
     }
 }

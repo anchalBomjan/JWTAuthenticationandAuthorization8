@@ -6,6 +6,10 @@ namespace AuthenticationandAuthorizationJWTToken9.Middleware
 {
     public class CustomExceptionFilter:ExceptionFilterAttribute
     {
+        /// <summary>
+        /// /
+        /// </summary>
+        /// <param name="context"></param>
 
         public override void OnException(ExceptionContext context)
         {

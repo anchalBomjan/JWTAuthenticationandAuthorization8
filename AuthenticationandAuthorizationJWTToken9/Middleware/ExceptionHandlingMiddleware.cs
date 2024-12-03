@@ -5,7 +5,10 @@ using System.Text.Json;
 public class ExceptionHandlingMiddleware
 {
     private readonly RequestDelegate _next;
-
+    /// <summary>
+    /// //
+    /// </summary>
+    /// <param name="next"></param>
     public ExceptionHandlingMiddleware(RequestDelegate next)
     {
         _next = next;

@@ -36,7 +36,10 @@ namespace AuthenticationandAuthorizationJWTToken9.Interface
         //What the caller expects to receive.
         //That decide method should have to return type or not ? 
 
-
+        /// <summary>
+        /// //
+        /// </summary>
+        /// <returns></returns>
 
         Task< List<Employee>>GetEmployeeDetailsAsync();
         //In this methods return type is needed for Frontend
@@ -54,8 +57,10 @@ namespace AuthenticationandAuthorizationJWTToken9.Interface
         // if no return types then in frontend dynamically  deleted 
         // Not null symbole is placed beacuse there is no change to get null during  delete
 
-        Task<bool> checkEmployeeAsync(int id);
-        //needed  return type to check 
+
+
+        public bool checkEmployeeAsync(int id);
+        //needed  return type to check no any I/O  bound and  CPU  bound
 
 
 
